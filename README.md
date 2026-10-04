@@ -7,7 +7,7 @@ The cask installs `Database Viewer.app` from the Apple Silicon disk image on Git
 ## Install
 
 ```bash
-brew tap MarkKiepeAIReview/database-viewer
+brew tap MarkKiepe/database-viewer
 brew install --cask database-viewer
 ```
 
@@ -43,7 +43,3 @@ bash scripts/bump-cask.sh 0.1.3
 ```
 
 The script reads the sha256 digest of `Database-Viewer-<version>-arm64.dmg` from the GitHub release asset. If the digest is missing, it downloads that DMG and hashes it, then updates `Casks/database-viewer.rb`. Add `--print-only` to print the version and checksum without editing the cask.
-
-## Tap name
-
-`brew tap MarkKiepe/database-viewer` requires a public repository named `MarkKiepe/homebrew-database-viewer`. This tap was created under `MarkKiepeAIReview` because the available GitHub credentials cannot create repositories on the `MarkKiepe` account. Transfer this repository to `MarkKiepe` with the same name to make that command work. The cask token stays `database-viewer`.
