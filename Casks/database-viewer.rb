@@ -1,6 +1,6 @@
 cask "database-viewer" do
-  version "0.1.4"
-  sha256 "a531edc709a989e8796ac885caeaf834a3fc7fce1663bdb3afc9e5be774993db"
+  version "0.1.5"
+  sha256 "55b29c5771ed8e6ccc8905bc147647032695cce6973588e70472d94fc61839d8"
 
   url "https://github.com/MarkKiepe/database-viewer/releases/download/v#{version}/Database-Viewer-#{version}-arm64.dmg"
   name "Database Viewer"
